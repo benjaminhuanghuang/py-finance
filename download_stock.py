@@ -17,6 +17,6 @@ end  = dt.datetime.now()
 
 # read a stack data into dataframe
 df = web.DataReader('TSLA', 'google', start, end)
-print(df.head(10))  # default first 5
+print(df['Open', 'High'].head(10))  # default first 5
 
 df.to_csv('data/tsla.csv')
