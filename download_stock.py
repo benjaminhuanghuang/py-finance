@@ -1,20 +1,22 @@
-import pandas as pd
-import pandas.io.data as web
+'''
+    download stock data by using pandas
+    save to csv
+'''
 import datetime as dt
+from matplotlib import style
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt 
+import pandas as pd
+import pandas_datareader.data as web
 
-start = dt.datetime(2017, 1, 1)
-end = dt.date.today()
 
-apple_stock = web.DataReader('AAPL', 'yahoo', start, end)
+style.use('ggplot')
+start  = dt.datetime(2017,1,1)
+end  = dt.datetime.now()
 
+# read a stack data into dataframe
+df = web.DataReader('TSLA', 'google', start, end)
+print(df.head(10))  # default first 5
 
-# Download sp500 stock
-ticker = []
-data = pd.read_cvs('SP500.csv', header=None)
-
-for item in data[0]:   # column 0 of data
-    ticker.append(item)
-    
-for name in ticker:
-    vars()[name] = web.DataReader(name, 'yahoo' , start, end)
-
+df.to_csv('data/tsla.csv')

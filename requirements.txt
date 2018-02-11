@@ -1,6 +1,6 @@
 pandas
 pandas-datareader
-n
-matplotblib
-beatuifulsoup4
+numpy
+matplotlib
+beautifulsoup4
 sklearn
