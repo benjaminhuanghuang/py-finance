@@ -1,29 +1,46 @@
 
 # -*- coding: utf-8 -*-
 '''
-Using matplotlib to get yahoo stock data
-https://matplotlib.org/api/finance_api.html 
-matplotlib.finance.quotes_historical_yahoo_ochl
 
 '''
-import matplotlib.pyplot as plt
-import matplotlib.finance as mpf
- 
- 
-date1 = (2014, 12, 1) # 起始日期，格式：(年，月，日)元组
-date2 = (2016, 12, 1)  # 结束日期，格式：(年，月，日)元组
-# 从雅虎财经中获取股票代码601558的历史行情
-quotes = mpf.quotes_historical_yahoo_ohlc('601558.ss', date1, date2)
- 
-# 创建一个子图 
-fig, ax = plt.subplots(facecolor=(0.5, 0.5, 0.5))
-fig.subplots_adjust(bottom=0.2)
-# 设置X轴刻度为日期时间
-ax.xaxis_date()
-# X轴刻度文字倾斜45度
-plt.xticks(rotation=45)
-plt.title("股票代码：601558两年K线图")
-plt.xlabel("时间")
-plt.ylabel("股价（元）")
-mpf.candlestick_ohlc(ax,quotes,width=1.2,colorup='r',colordown='green')
-plt.grid(True)
+import datetime as dt
+from matplotlib import style
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt 
+import pandas as pd
+import pandas_datareader.data as web
+import numpy as np
+
+
+style.use('ggplot')
+start  = dt.datetime(2017,1,1)
+end  = dt.datetime.now()
+
+# read a stack data into dataframe
+df = web.DataReader('TSLA', 'google', start, end)
+print (df.head())
+left, width = 0.1, 0.8
+
+volumns = []
+dates = []
+for record in df:
+    print (len(record))
+    print (record)
+    # dates.append(record[0])
+    # volumns.append(record[5])
+    
+
+
+# rect for volumn plot
+rect_vol = [ left, 0.1, width, 0.3 ]   # left, bottom, width, height
+# rect for k line plot
+rect_k = [ left, 0.4, width, 0.5 ]
+
+fig = plt.figure()
+ax_vol = fig.add_axes(rect_vol)
+ax_vol.fill_between(df['Volume'])
+ax_k = fig.add_axes(rect_k)
+
+
+plt.show()

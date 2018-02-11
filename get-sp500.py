@@ -2,12 +2,12 @@
 '''
 Get sp500 from wiki S&P 500 Component Stocks
 '''
-import urllib.request
+from urllib import request
 from bs4 import BeautifulSoup as bs
 import pandas as pd
 
 site = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-page = urllib.request.urlopen(site)
+page = request.urlopen(site)
 soup = bs(page.read(),"html.parser")
 
 table = soup.find('table', {'class': 'wikitable'})
