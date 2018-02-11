@@ -12,7 +12,7 @@ apple_stock = web.DataReader('AAPL', 'yahoo', start, end)
 ticker = []
 data = pd.read_cvs('SP500.csv', header=None)
 
-for item in data[0]   # column 0 of data
+for item in data[0]:   # column 0 of data
     ticker.append(item)
     
 for name in ticker:

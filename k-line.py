@@ -1,12 +1,25 @@
-import numpy as np
+
+# -*- coding: utf-8 -*-
+'''
+Using matplotlib to get yahoo stock data
+https://matplotlib.org/api/finance_api.html 
+matplotlib.finance.quotes_historical_yahoo_ochl
+
+'''
 import matplotlib.pyplot as plt
-from mpl_finance  import quotes_historical_yahoo_ohlc
+import matplotlib.finance as mpf
+ 
+ 
+date1 = (2014, 12, 1) 
 
-date1 = (2010,2,1)
-data2= (2010,5,1)
-
-quotes = quotes_historical_yahoo_ohlc('INTC', date1, data2)
-left = 0.1
-width = 0.8
-rect_vol = [left, 0.1, width, 0.3]
-rect_main = [left, 0.4, width, 0.5]
+quotes = mpf.quotes_historical_yahoo_ohlc('601558.ss', date1, date2)
+ 
+fig, ax = plt.subplots(facecolor=(0.5, 0.5, 0.5))
+fig.subplots_adjust(bottom=0.2)
+ax.xaxis_date()
+plt.xticks(rotation=45)
+plt.title("股票代码：601558两年K线图")
+plt.xlabel("时间")
+plt.ylabel("股价（元）")
+mpf.candlestick_ohlc(ax,quotes,width=1.2,colorup='r',colordown='green')
+plt.grid(True)
