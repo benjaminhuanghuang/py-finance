@@ -1,6 +1,8 @@
 ## Reference
 - https://github.com/kamidox/stock-analysis
 - https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/
+- https://github.com/xingbuxing/TA-Lib-in-Chinese
+
 
 ## Setup
 ```

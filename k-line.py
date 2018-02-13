@@ -1,7 +1,8 @@
 
 # -*- coding: utf-8 -*-
 '''
-
+    open, low, high, close
+    red, green
 '''
 import datetime as dt
 from matplotlib import style
@@ -22,15 +23,16 @@ df = web.DataReader('TSLA', 'google', start, end)
 print (df.head())
 left, width = 0.1, 0.8
 
-volumns = []
-dates = []
-for record in df:
-    print (len(record))
-    print (record)
-    # dates.append(record[0])
-    # volumns.append(record[5])
-    
+volumns = np.array([])
+dates = np.array([])
 
+# for row in df.as_matrix():
+#     print (row)
+#     dates = np.append(dates, row[0])
+#     volumns = np.append(volumns, row[4])
+    
+stock_array = np.array(df.reset_index()[['Date','Open','High','Low','Close']])
+    
 
 # rect for volumn plot
 rect_vol = [ left, 0.1, width, 0.3 ]   # left, bottom, width, height
@@ -39,8 +41,8 @@ rect_k = [ left, 0.4, width, 0.5 ]
 
 fig = plt.figure()
 ax_vol = fig.add_axes(rect_vol)
-ax_vol.fill_between(df['Volume'])
+ax_vol.fill_between(dates, volumns)
 ax_k = fig.add_axes(rect_k)
 
 
-plt.show()
+# plt.show()
