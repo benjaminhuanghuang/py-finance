@@ -1,5 +1,6 @@
 pandas
 pandas-datareader
+quandl
 numpy
 matplotlib
 beautifulsoup4
