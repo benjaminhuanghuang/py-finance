@@ -4,9 +4,10 @@
 - https://github.com/xingbuxing/TA-Lib-in-Chinese
 - 土炮股票分析系統 https://github.com/victorgau/Pycontw2017
 
+
 ## Setup
 ```
-$ virtualenv --system-site-packages -p python3 venv3
+$ python3 -m venv venv3
 
 $ . venv3/bin/activate
 
@@ -15,3 +16,11 @@ $ . venv3/bin/activate
 ...
 (venv3)$ deactivate
 ```
+
+
+## Key points
+- Data analysis using **numpy, sklearn, pandas** 
+- Get data online(yahoo, google)
+- Read / write data files (xssl, csv, test) using **pandas, openpyxl**
+- Graphics using **matplotlib**
+- Draw K line

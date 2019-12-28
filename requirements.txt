@@ -7,3 +7,4 @@ beautifulsoup4
 sklearn
 urllib3
 ffn
+openpyxl
