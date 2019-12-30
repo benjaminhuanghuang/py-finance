@@ -1,3 +1,4 @@
+notebook
 pandas
 pandas-datareader
 quandl
@@ -8,3 +9,4 @@ sklearn
 urllib3
 ffn
 openpyxl
+yfinance

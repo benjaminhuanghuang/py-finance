@@ -20,7 +20,16 @@ $ . venv3/bin/activate
 
 ## Key points
 - Data analysis using **numpy, sklearn, pandas** 
-- Get data online(yahoo, google)
+- Scrape data online(yahoo, google) using **requests,beautifulsoup**
 - Read / write data files (xssl, csv, test) using **pandas, openpyxl**
-- Graphics using **matplotlib**
-- Draw K line
+- Data visualization using **matplotlib,Seaborn**
+- Angorithm 
+
+
+
+## Features
+- Fetch data
+
+- Analysis
+
+- 
