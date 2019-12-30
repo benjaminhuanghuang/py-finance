@@ -10,6 +10,13 @@ Finance market data downloader
 ```
  pip install yfinance
 ```
+
+## stocker
+Stocker is a python tool that uses ANN to predict the stock's close price for the next business day.
+```
+pip install stocker
+```
+
 ## tushare
 
 ## matplotlib 
