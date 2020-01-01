@@ -18,18 +18,21 @@ $ . venv3/bin/activate
 ```
 
 
-## Key points
-- Data analysis using **numpy, sklearn, pandas** 
-- Scrape data online(yahoo, google) using **requests,beautifulsoup**
-- Read / write data files (xssl, csv, test) using **pandas, openpyxl**
-- Data visualization using **matplotlib,Seaborn**
-- Angorithm 
+## Data scrape
+- pandas-datareader
+- requests
+- beautifulsoup
+- openpyxl
+
+## Data analysis
+- numpy
+- pandas
+- sklearn
+- scipy: matrix operation
 
 
+## Data visualization
+- matplotlib
+- Seaborn
 
-## Features
-- Fetch data
 
-- Analysis
-
-- 

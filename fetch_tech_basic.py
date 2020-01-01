@@ -10,36 +10,33 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 from datetime import date
 
+import utils
+
+
 SYMBOLS = [
-    'APPL',
+    'AAPL',
     'GOOGL',
     'GOOG',
+    'TSLA'
 ]
 
 
 HEADERS = [
-    'Symbol',
-    'Company Name',
-    'Open',
-    'Close',
-    'PE'
+    'symbol',
+    'open',
+    'high',
+    'low',
+    'close',
+    'volume'
 ]
 
 
-def fetchStockInfo(symbol):
-  mock_info = [symbol, symbol, '10.0', '12.0', '15']
-
-  return mock_info
-
-
 if __name__ == '__main__':
-  stocks = []
+  df_stocks = pd.DataFrame(columns=HEADERS)
   for symbol in SYMBOLS:
-    stock_info = fetchStockInfo(symbol)
-    stocks.append(stock_info)
+    stock_info = utils.fetchTodayStockInfo(symbol, HEADERS[1:])
+    df_stocks = df_stocks.append(stock_info, sort=False)
 
   #
-  df = pd.DataFrame(data=stocks, columns=HEADERS)
-
   filePath = 'data/tech_{}.xlsx'.format(date.today().strftime("%Y-%m-%d"))
-  df.to_excel(excel_writer=filePath, index=False)
+  df_stocks.to_excel(excel_writer=filePath, index=False)
