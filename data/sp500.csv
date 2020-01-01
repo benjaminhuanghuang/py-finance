@@ -1,505 +1,505 @@
-A,health care
-AAL,industrials
-AAP,consumer discretionary
-AAPL,information technology
-ABBV,health care
-ABC,health care
+MMM,industrials
 ABT,health care
+ABBV,health care
+ABMD,health care
 ACN,information technology
+ATVI,communication services
 ADBE,information technology
-ADI,information technology
-ADM,consumer staples
-ADP,information technology
-ADS,information technology
-ADSK,information technology
-AEE,utilities
-AEP,utilities
-AES,utilities
-AET,health care
-AFL,financials
-AGN,health care
-AIG,financials
-AIV,real estate
-AIZ,financials
-AJG,financials
-AKAM,information technology
-ALB,materials
-ALGN,health care
-ALK,industrials
-ALL,financials
-ALLE,industrials
-ALXN,health care
-AMAT,information technology
 AMD,information technology
-AME,industrials
-AMG,financials
-AMGN,health care
-AMP,financials
-AMT,real estate
+AAP,consumer discretionary
+AES,utilities
+AFL,financials
+A,health care
+APD,materials
+AKAM,information technology
+ALK,industrials
+ALB,materials
+ARE,real estate
+ALXN,health care
+ALGN,health care
+ALLE,industrials
+AGN,health care
+ADS,information technology
+LNT,utilities
+ALL,financials
+GOOGL,communication services
+GOOG,communication services
+MO,consumer staples
 AMZN,consumer discretionary
-ANDV,energy
+AMCR,materials
+AEE,utilities
+AAL,industrials
+AEP,utilities
+AXP,financials
+AIG,financials
+AMT,real estate
+AWK,utilities
+AMP,financials
+ABC,health care
+AME,industrials
+AMGN,health care
+APH,information technology
+ADI,information technology
 ANSS,information technology
 ANTM,health care
 AON,financials
 AOS,industrials
 APA,energy
-APC,energy
-APD,materials
-APH,information technology
+AIV,real estate
+AAPL,information technology
+AMAT,information technology
 APTV,consumer discretionary
-ARE,real estate
+ADM,consumer staples
 ARNC,industrials
-ATVI,information technology
-AVB,real estate
-AVGO,information technology
-AVY,materials
-AWK,utilities
-AXP,financials
-AYI,industrials
+ANET,information technology
+AJG,financials
+AIZ,financials
+ATO,utilities
+T,communication services
+ADSK,information technology
+ADP,information technology
 AZO,consumer discretionary
-BA,industrials
-BAC,financials
-BAX,health care
-BBT,financials
-BBY,consumer discretionary
-BDX,health care
-BEN,financials
-BF.B,consumer staples
-BHF,financials
-BHGE,energy
-BIIB,health care
-BK,financials
-BLK,financials
+AVB,real estate
+AVY,materials
+BKR,energy
 BLL,materials
-BMY,health care
+BAC,financials
+BK,financials
+BAX,health care
+BDX,health care
 BRK.B,financials
-BSX,health care
+BBY,consumer discretionary
+BIIB,health care
+BLK,financials
+BA,industrials
+BKNG,consumer discretionary
 BWA,consumer discretionary
 BXP,real estate
-C,financials
-CA,information technology
-CAG,consumer staples
-CAH,health care
-CAT,industrials
-CB,financials
-CBG,real estate
-CBOE,financials
-CBS,consumer discretionary
-CCI,real estate
-CCL,consumer discretionary
-CDNS,information technology
-CELG,health care
-CERN,health care
-CF,materials
-CFG,financials
-CHD,consumer staples
-CHK,energy
+BSX,health care
+BMY,health care
+AVGO,information technology
+BR,information technology
+BF.B,consumer staples
 CHRW,industrials
-CHTR,consumer discretionary
-CI,health care
-CINF,financials
-CL,consumer staples
-CLX,consumer staples
-CMA,financials
-CMCSA,consumer discretionary
-CME,financials
-CMG,consumer discretionary
-CMI,industrials
-CMS,utilities
+COG,energy
+CDNS,information technology
+CPB,consumer staples
+COF,financials
+CPRI,consumer discretionary
+CAH,health care
+KMX,consumer discretionary
+CCL,consumer discretionary
+CAT,industrials
+CBOE,financials
+CBRE,real estate
+CDW,information technology
+CE,materials
 CNC,health care
 CNP,utilities
-COF,financials
-COG,energy
-COL,industrials
-COO,health care
+CTL,communication services
+CERN,health care
+CF,materials
+SCHW,financials
+CHTR,communication services
+CVX,energy
+CMG,consumer discretionary
+CB,financials
+CHD,consumer staples
+CI,health care
+XEC,energy
+CINF,financials
+CTAS,industrials
+CSCO,information technology
+C,financials
+CFG,financials
+CTXS,information technology
+CLX,consumer staples
+CME,financials
+CMS,utilities
+KO,consumer staples
+CTSH,information technology
+CL,consumer staples
+CMCSA,communication services
+CMA,financials
+CAG,consumer staples
+CXO,energy
 COP,energy
+ED,utilities
+STZ,consumer staples
+COO,health care
+CPRT,industrials
+GLW,information technology
+CTVA,materials
 COST,consumer staples
 COTY,consumer staples
-CPB,consumer staples
-CRM,information technology
-CSCO,information technology
-CSRA,information technology
+CCI,real estate
 CSX,industrials
-CTAS,industrials
-CTL,telecommunication services
-CTSH,information technology
-CTXS,information technology
-CVS,consumer staples
-CVX,energy
-CXO,energy
-D,utilities
-DAL,industrials
-DE,industrials
-DFS,financials
-DG,consumer discretionary
-DGX,health care
+CMI,industrials
+CVS,health care
 DHI,consumer discretionary
 DHR,health care
-DIS,consumer discretionary
-DISCA,consumer discretionary
-DISCK,consumer discretionary
-DISH,consumer discretionary
-DLR,real estate
-DLTR,consumer discretionary
-DOV,industrials
-DPS,consumer staples
-DRE,real estate
 DRI,consumer discretionary
+DVA,health care
+DE,industrials
+DAL,industrials
+XRAY,health care
+DVN,energy
+FANG,energy
+DLR,real estate
+DFS,financials
+DISCA,communication services
+DISCK,communication services
+DISH,communication services
+DG,consumer discretionary
+DLTR,consumer discretionary
+D,utilities
+DOV,industrials
+DOW,materials
 DTE,utilities
 DUK,utilities
-DVA,health care
-DVN,energy
-DWDP,materials
+DRE,real estate
+DD,materials
 DXC,information technology
-EA,information technology
-EBAY,information technology
-ECL,materials
-ED,utilities
-EFX,industrials
-EIX,utilities
-EL,consumer staples
+ETFC,financials
 EMN,materials
+ETN,industrials
+EBAY,consumer discretionary
+ECL,materials
+EIX,utilities
+EW,health care
+EA,communication services
 EMR,industrials
+ETR,utilities
 EOG,energy
+EFX,industrials
 EQIX,real estate
 EQR,real estate
-EQT,energy
-ES,utilities
-ESRX,health care
 ESS,real estate
-ETFC,financials
-ETN,industrials
-ETR,utilities
-EVHC,health care
-EW,health care
+EL,consumer staples
+EVRG,utilities
+ES,utilities
+RE,financials
 EXC,utilities
-EXPD,industrials
 EXPE,consumer discretionary
+EXPD,industrials
 EXR,real estate
-F,consumer discretionary
-FAST,industrials
-FB,information technology
-FBHS,industrials
-FCX,materials
-FDX,industrials
-FE,utilities
+XOM,energy
 FFIV,information technology
+FB,communication services
+FAST,industrials
+FRT,real estate
+FDX,industrials
 FIS,information technology
-FISV,information technology
 FITB,financials
-FL,consumer discretionary
+FE,utilities
+FRC,financials
+FISV,information technology
+FLT,information technology
 FLIR,information technology
-FLR,industrials
 FLS,industrials
 FMC,materials
-FOX,consumer discretionary
-FOXA,consumer discretionary
-FRT,real estate
-FTI,energy
+F,consumer discretionary
+FTNT,information technology
 FTV,industrials
-GD,industrials
-GE,industrials
-GGP,real estate
-GILD,health care
-GIS,consumer staples
-GLW,information technology
-GM,consumer discretionary
-GOOG,information technology
-GOOGL,information technology
-GPC,consumer discretionary
-GPN,information technology
+FBHS,industrials
+FOXA,communication services
+FOX,communication services
+BEN,financials
+FCX,materials
 GPS,consumer discretionary
 GRMN,consumer discretionary
-GS,financials
-GT,consumer discretionary
-GWW,industrials
-HAL,energy
-HAS,consumer discretionary
-HBAN,financials
-HBI,consumer discretionary
-HCA,health care
-HCN,real estate
-HCP,real estate
-HD,consumer discretionary
-HES,energy
-HIG,financials
-HII,industrials
-HLT,consumer discretionary
-HOG,consumer discretionary
-HOLX,health care
-HON,industrials
-HP,energy
-HPE,information technology
-HPQ,information technology
-HRB,financials
-HRL,consumer staples
-HRS,information technology
-HSIC,health care
-HST,real estate
-HSY,consumer staples
-HUM,health care
-IBM,information technology
-ICE,financials
-IDXX,health care
-IFF,materials
-ILMN,health care
-INCY,health care
-INFO,industrials
-INTC,information technology
-INTU,information technology
-IP,materials
-IPG,consumer discretionary
-IQV,health care
-IR,industrials
-IRM,real estate
-ISRG,health care
 IT,information technology
+GD,industrials
+GE,industrials
+GIS,consumer staples
+GM,consumer discretionary
+GPC,consumer discretionary
+GILD,health care
+GL,financials
+GPN,information technology
+GS,financials
+GWW,industrials
+HRB,consumer discretionary
+HAL,energy
+HBI,consumer discretionary
+HOG,consumer discretionary
+HIG,financials
+HAS,consumer discretionary
+HCA,health care
+PEAK,real estate
+HP,energy
+HSIC,health care
+HSY,consumer staples
+HES,energy
+HPE,information technology
+HLT,consumer discretionary
+HFC,energy
+HOLX,health care
+HD,consumer discretionary
+HON,industrials
+HRL,consumer staples
+HST,real estate
+HPQ,information technology
+HUM,health care
+HBAN,financials
+HII,industrials
+IEX,industrials
+IDXX,health care
+INFO,industrials
 ITW,industrials
+ILMN,health care
+IR,industrials
+INTC,information technology
+ICE,financials
+IBM,information technology
+INCY,health care
+IP,materials
+IPG,communication services
+IFF,materials
+INTU,information technology
+ISRG,health care
 IVZ,financials
+IPGP,information technology
+IQV,health care
+IRM,real estate
+JKHY,information technology
+J,industrials
 JBHT,industrials
-JCI,industrials
-JEC,industrials
+SJM,consumer staples
 JNJ,health care
-JNPR,information technology
+JCI,industrials
 JPM,financials
-JWN,consumer discretionary
+JNPR,information technology
+KSU,industrials
 K,consumer staples
 KEY,financials
-KHC,consumer staples
-KIM,real estate
-KLAC,information technology
+KEYS,information technology
 KMB,consumer staples
+KIM,real estate
 KMI,energy
-KMX,consumer discretionary
-KO,consumer staples
-KORS,consumer discretionary
-KR,consumer staples
+KLAC,information technology
 KSS,consumer discretionary
-KSU,industrials
-L,financials
+KHC,consumer staples
+KR,consumer staples
 LB,consumer discretionary
-LEG,consumer discretionary
-LEN,consumer discretionary
+LHX,industrials
 LH,health care
-LKQ,consumer discretionary
-LLL,industrials
-LLY,health care
-LMT,industrials
-LNC,financials
-LNT,utilities
-LOW,consumer discretionary
 LRCX,information technology
-LUK,financials
-LUV,industrials
+LW,consumer staples
+LVS,consumer discretionary
+LEG,consumer discretionary
+LDOS,information technology
+LEN,consumer discretionary
+LLY,health care
+LNC,financials
+LIN,materials
+LYV,communications services
+LKQ,consumer discretionary
+LMT,industrials
+L,financials
+LOW,consumer discretionary
 LYB,materials
-M,consumer discretionary
-MA,information technology
-MAA,real estate
-MAC,real estate
-MAR,consumer discretionary
-MAS,industrials
-MAT,consumer discretionary
-MCD,consumer discretionary
-MCHP,information technology
-MCK,health care
-MCO,financials
-MDLZ,consumer staples
-MDT,health care
-MET,financials
-MGM,consumer discretionary
-MHK,consumer discretionary
-MKC,consumer staples
-MLM,materials
-MMC,financials
-MMM,industrials
-MNST,consumer staples
-MO,consumer staples
-MON,materials
-MOS,materials
-MPC,energy
-MRK,health care
-MRO,energy
-MS,financials
-MSFT,information technology
-MSI,information technology
 MTB,financials
+M,consumer discretionary
+MRO,energy
+MPC,energy
+MKTX,financials
+MAR,consumer discretionary
+MMC,financials
+MLM,materials
+MAS,industrials
+MA,information technology
+MKC,consumer staples
+MXIM,information technology
+MCD,consumer discretionary
+MCK,health care
+MDT,health care
+MRK,health care
+MET,financials
 MTD,health care
+MGM,consumer discretionary
+MCHP,information technology
 MU,information technology
+MSFT,information technology
+MAA,real estate
+MHK,consumer discretionary
+TAP,consumer staples
+MDLZ,consumer staples
+MNST,consumer staples
+MCO,financials
+MS,financials
+MOS,materials
+MSI,information technology
+MSCI,financials
 MYL,health care
-NAVI,financials
-NBL,energy
-NCLH,consumer discretionary
 NDAQ,financials
-NEE,utilities
-NEM,materials
-NFLX,information technology
-NFX,energy
-NI,utilities
-NKE,consumer discretionary
-NLSN,industrials
-NOC,industrials
 NOV,energy
-NRG,utilities
-NSC,industrials
 NTAP,information technology
+NFLX,communication services
+NWL,consumer discretionary
+NEM,materials
+NWSA,communication services
+NWS,communication services
+NEE,utilities
+NLSN,industrials
+NKE,consumer discretionary
+NI,utilities
+NBL,energy
+JWN,consumer discretionary
+NSC,industrials
 NTRS,financials
+NOC,industrials
+NLOK,information technology
+NCLH,consumer discretionary
+NRG,utilities
 NUE,materials
 NVDA,information technology
-NWL,consumer discretionary
-NWS,consumer discretionary
-NWSA,consumer discretionary
-O,real estate
-OKE,energy
-OMC,consumer discretionary
-ORCL,information technology
+NVR,consumer discretionary
 ORLY,consumer discretionary
 OXY,energy
-PAYX,information technology
-PBCT,financials
+ODFL,industrials
+OMC,communication services
+OKE,energy
+ORCL,information technology
 PCAR,industrials
-PCG,utilities
-PCLN,consumer discretionary
-PDCO,health care
-PEG,utilities
+PKG,materials
+PH,industrials
+PAYX,information technology
+PYPL,information technology
+PNR,industrials
+PBCT,financials
 PEP,consumer staples
+PKI,health care
+PRGO,health care
 PFE,health care
+PM,consumer staples
+PSX,energy
+PNW,utilities
+PXD,energy
+PNC,financials
+PPG,materials
+PPL,utilities
 PFG,financials
 PG,consumer staples
 PGR,financials
-PH,industrials
-PHM,consumer discretionary
-PKG,materials
-PKI,health care
 PLD,real estate
-PM,consumer staples
-PNC,financials
-PNR,industrials
-PNW,utilities
-PPG,materials
-PPL,utilities
-PRGO,health care
 PRU,financials
+PEG,utilities
 PSA,real estate
-PSX,energy
+PHM,consumer discretionary
 PVH,consumer discretionary
-PWR,industrials
-PX,materials
-PXD,energy
-PYPL,information technology
-QCOM,information technology
 QRVO,information technology
-RCL,consumer discretionary
-RE,financials
+PWR,industrials
+QCOM,information technology
+DGX,health care
+RL,consumer discretionary
+RJF,financials
+RTN,industrials
+O,real estate
 REG,real estate
 REGN,health care
 RF,financials
-RHI,industrials
-RHT,information technology
-RJF,financials
-RL,consumer discretionary
+RSG,industrials
 RMD,health care
+RHI,industrials
 ROK,industrials
+ROL,industrials
 ROP,industrials
 ROST,consumer discretionary
-RRC,energy
-RSG,industrials
-RTN,industrials
-SBAC,real estate
-SBUX,consumer discretionary
-SCG,utilities
-SCHW,financials
-SEE,materials
-SHW,materials
-SIG,consumer discretionary
-SJM,consumer staples
-SLB,energy
-SLG,real estate
-SNA,consumer discretionary
-SNI,consumer discretionary
-SNPS,information technology
-SO,utilities
-SPG,real estate
+RCL,consumer discretionary
 SPGI,financials
-SRCL,industrials
-SRE,utilities
-STI,financials
-STT,financials
+CRM,information technology
+SBAC,real estate
+SLB,energy
 STX,information technology
-STZ,consumer staples
-SWK,consumer discretionary
+SEE,materials
+SRE,utilities
+NOW,information technology
+SHW,materials
+SPG,real estate
 SWKS,information technology
-SYF,financials
+SLG,real estate
+SNA,industrials
+SO,utilities
+LUV,industrials
+SWK,industrials
+SBUX,consumer discretionary
+STT,financials
+STE,health care
 SYK,health care
-SYMC,information technology
+SIVB,financials
+SYF,financials
+SNPS,information technology
 SYY,consumer staples
-T,telecommunication services
-TAP,consumer staples
-TDG,industrials
-TEL,information technology
-TGT,consumer discretionary
-TIF,consumer discretionary
-TJX,consumer discretionary
-TMK,financials
-TMO,health care
-TPR,consumer discretionary
-TRIP,consumer discretionary
+TMUS,communication services
 TROW,financials
-TRV,financials
-TSCO,consumer discretionary
-TSN,consumer staples
-TSS,information technology
-TWX,consumer discretionary
+TTWO,communication services
+TPR,consumer discretionary
+TGT,consumer discretionary
+TEL,information technology
+FTI,energy
+TFX,health care
 TXN,information technology
 TXT,industrials
-UA,consumer discretionary
-UAA,consumer discretionary
-UAL,industrials
+TMO,health care
+TIF,consumer discretionary
+TJX,consumer discretionary
+TSCO,consumer discretionary
+TDG,industrials
+TRV,financials
+TFC,financials
+TWTR,communication services
+TSN,consumer staples
 UDR,real estate
-UHS,health care
 ULTA,consumer discretionary
-UNH,health care
-UNM,financials
+USB,financials
+UAA,consumer discretionary
+UA,consumer discretionary
 UNP,industrials
+UAL,industrials
+UNH,health care
 UPS,industrials
 URI,industrials
-USB,financials
 UTX,industrials
-V,information technology
-VAR,health care
+UHS,health care
+UNM,financials
 VFC,consumer discretionary
-VIAB,consumer discretionary
 VLO,energy
-VMC,materials
-VNO,real estate
-VRSK,industrials
-VRSN,information technology
-VRTX,health care
+VAR,health care
 VTR,real estate
-VZ,telecommunication services
-WAT,health care
-WBA,consumer staples
-WDC,information technology
-WEC,utilities
-WFC,financials
-WHR,consumer discretionary
-WLTW,financials
-WM,industrials
-WMB,energy
+VRSN,information technology
+VRSK,industrials
+VZ,communication services
+VRTX,health care
+VIAC,communication services
+V,information technology
+VNO,real estate
+VMC,materials
+WRB,financials
+WAB,industrials
 WMT,consumer staples
-WRK,materials
+WBA,consumer staples
+DIS,communication services
+WM,industrials
+WAT,health care
+WEC,utilities
+WCG,health care
+WFC,financials
+WELL,real estate
+WDC,information technology
 WU,information technology
+WRK,materials
 WY,real estate
-WYN,consumer discretionary
+WHR,consumer discretionary
+WMB,energy
+WLTW,financials
 WYNN,consumer discretionary
-XEC,energy
 XEL,utilities
-XL,financials
-XLNX,information technology
-XOM,energy
-XRAY,health care
 XRX,information technology
+XLNX,information technology
 XYL,industrials
 YUM,consumer discretionary
+ZBRA,information technology
 ZBH,health care
 ZION,financials
 ZTS,health care
