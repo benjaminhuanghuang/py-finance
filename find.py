@@ -5,7 +5,7 @@ import utils
 
 
 if __name__ == '__main__':
-  target = []
+  good_stocks = []
   # Load stock symbols from csv file
   df = pd.read_csv('data/sp500.csv', header=None)
   symbols = df[0].values
@@ -21,6 +21,6 @@ if __name__ == '__main__':
       count += 1
       utils.printProgress(count, 505, prefix='Progress:', decimals=0)
       if f.result():
-        target.append(symbol)
-  df = pd.DataFrame(data = target)
-  stocks.to_csv('data/good_stock.csv', header=False)
+        good_stocks.append(symbol)
+  df = pd.DataFrame(data = good_stocks)
+  df.to_csv('data/good_stocks.csv', header=False)
