@@ -12,29 +12,10 @@ from datetime import date
 
 import utils
 
-
-SYMBOLS = [
-    'AAPL',
-    'GOOGL',
-    'GOOG',
-    'TSLA'
-]
-
-
-HEADERS = [
-    'symbol',
-    'open',
-    'high',
-    'low',
-    'close',
-    'volume'
-]
-
-
 if __name__ == '__main__':
-  df_stocks = pd.DataFrame(columns=HEADERS)
-  for symbol in SYMBOLS:
-    stock_info = utils.fetchTodayStockInfo(symbol, HEADERS[1:])
+  df_stocks = pd.DataFrame(columns=utils.HEADERS)
+  for symbol in utils.TECH_SYMBOLS:
+    stock_info = utils.fetchTodayStockInfo(symbol, utils.HEADERS[1:])
     df_stocks = df_stocks.append(stock_info, sort=False)
 
   #
