@@ -4,6 +4,7 @@ pandas-datareader
 quandl
 numpy
 matplotlib
+mpl-finance
 beautifulsoup4
 sklearn
 urllib3

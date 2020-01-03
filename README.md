@@ -33,6 +33,7 @@ $ . venv3/bin/activate
 
 ## Data visualization
 - matplotlib
+- matplotlib.finance
 - Seaborn
 
 

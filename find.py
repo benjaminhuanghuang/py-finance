@@ -10,8 +10,10 @@ if __name__ == '__main__':
   df = pd.read_csv('data/sp500.csv', header=None)
   symbols = df[0].values
   count = 1
-  num_cpu = mp.cpu_count()
-  print('CPU: {}'.format(num_cpu))
+  
+  num_cpu = mp.cpu_count() 
+  #print('CPU: {}'.format(num_cpu))
+  
   with ThreadPoolExecutor(max_workers=num_cpu) as executor:
     # Start the task and mark each future with its parameter
     futures = {executor.submit(utils.isRaisingN, symbol, 3):symbol for symbol in symbols}
