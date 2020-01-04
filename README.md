@@ -19,7 +19,7 @@ $ . venv3/bin/activate
 
 
 ## Data scrape
-- pandas-datareader
+- pandas-datareader, quandl
 - requests
 - beautifulsoup
 - openpyxl
@@ -33,7 +33,7 @@ $ . venv3/bin/activate
 
 ## Data visualization
 - matplotlib
-- matplotlib.finance
+- mpl_finance (k-line
 - Seaborn
 
 

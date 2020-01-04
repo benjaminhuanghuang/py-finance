@@ -5,25 +5,25 @@
     open, low, high, close
     red, green
 '''
+import matplotlib.pyplot as plt
+from matplotlib.dates import MONDAY, DateFormatter, DayLocator, WeekdayLocator
+import matplotlib.dates as mdates
+from mpl_finance import candlestick_ohlc
+import numpy as np
+import pandas_datareader.data as web
+import pandas as pd
 import datetime as dt
 from matplotlib import style
 import matplotlib
 matplotlib.use('TkAgg')
-import matplotlib.pyplot as plt 
-import pandas as pd
-import pandas_datareader.data as web
-import numpy as np
-from mpl_finance import candlestick_ohlc
-import matplotlib.dates as mdates
-from matplotlib.dates import MONDAY, DateFormatter, DayLocator, WeekdayLocator
 
 '''
 Fetch stock data
 '''
 STOCK_SAMBOL = 'AAPL'
-start  = dt.datetime(2019,10,1)
+start = dt.datetime(2019, 11, 1)
 #end  = dt.datetime.now()
-quotes = web.get_data_yahoo(STOCK_SAMBOL, start=start)
+df = web.get_data_yahoo(STOCK_SAMBOL, start=start)
 
 
 mondays = WeekdayLocator(MONDAY)        # major ticks on the mondays
@@ -31,21 +31,44 @@ alldays = DayLocator()              # minor ticks on the days
 weekFormatter = DateFormatter('%b %d')  # e.g., Jan 12
 dayFormatter = DateFormatter('%d')      # e.g., 12
 
-fig, ax = plt.subplots()
-fig.subplots_adjust(bottom=0.2)
-ax.xaxis.set_major_locator(mondays)
-ax.xaxis.set_minor_locator(alldays)
-ax.xaxis.set_major_formatter(weekFormatter)
-ax.xaxis.set_minor_formatter(dayFormatter)
+# 整张图 6rows, 1 col, K线图占5rows, 交易量占1row
+ax1 = plt.subplot2grid((6, 1), (0, 0), rowspan=5, colspan=1)
+ax2 = plt.subplot2grid((6, 1), (5, 0), rowspan=1, colspan=1, sharex = ax1)
+
+# ax1.xaxis.set_major_locator(mondays)
+# ax1.xaxis.set_minor_locator(alldays)
+# ax1.xaxis.set_major_formatter(weekFormatter)
+# ax1.xaxis.set_minor_formatter(dayFormatter)
 
 # plot_day_summary(ax, quotes, ticksize=3)
-candlestick_ohlc(ax, zip(mdates.date2num(quotes.index.to_pydatetime()),
-                         quotes['Open'], quotes['High'],
-                         quotes['Low'], quotes['Close']),
-                 width=0.6)
 
-ax.xaxis_date()
-ax.autoscale_view()
+
+
+'''
+k-line using candlestick_ohlc
+ax为坐标轴，
+
+quotes 是包含time，open，high，low，close的序列，candlestick_ohlc方法只会读取序列的前5个，因此可以传入任意长度的序列。time必须是浮点类型，一般需要用matplotliab中的date2num方法进行格式转换。
+
+width为bar的宽度，
+'''
+quotes = zip(mdates.date2num(df.index.to_pydatetime()),
+             df['Open'], df['High'],
+             df['Low'], df['Close'])
+
+candlestick_ohlc(ax1, quotes, colorup='r', colordown='g', width=0.6, alpha=0.3)
+
+'''
+计算均线
+'''
+
+# ax1.xaxis_date()
+# ax1.autoscale_view()
 plt.setp(plt.gca().get_xticklabels(), rotation=45, horizontalalignment='right')
+
+'''
+交易量
+'''
+ax2.bar(df.index, df['Volume'])
 
 plt.show()
