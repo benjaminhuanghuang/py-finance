@@ -9,4 +9,4 @@
 
 -[python根据金融指标选股票](https://www.youtube.com/watch?v=R3h8rJsQHaw)
 
--[Python量化入门：K线图+均线+成交量](https://zhuanlan.zhihu.com/p/54583899)
+-[Python量化入门：K线图+均线+成交量 !!!](https://zhuanlan.zhihu.com/p/54583899) 
