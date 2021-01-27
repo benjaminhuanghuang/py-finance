@@ -1,3 +1,4 @@
+## 基本面
 ### PE
 市盈率（PE）用来评估股价水平是否合理的指标之一，由股价除以年度每股盈余（EPS）得出.
 PE = Price per share / Earnings per Share
@@ -22,4 +23,14 @@ PV = FV / (1+R)^n
 ```
  PV(永久年金) = C/(R-g)
 ```
+
+## 技术面
+- K线: 最高，最低，收盘，开盘，颜色
+
+- MA(Moving Average)
+
+- KDJ 随机指标
+
+- MACD 指数平滑移动平均线
+
 
