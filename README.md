@@ -1,8 +1,4 @@
-## Reference
-- https://github.com/kamidox/stock-analysis
-- https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/
-- https://github.com/xingbuxing/TA-Lib-in-Chinese
-- 土炮股票分析系統 https://github.com/victorgau/Pycontw2017
+# Python Quantitative Trading
 
 
 ## Setup

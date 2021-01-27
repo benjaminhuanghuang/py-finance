@@ -10,3 +10,10 @@
 -[python根据金融指标选股票](https://www.youtube.com/watch?v=R3h8rJsQHaw)
 
 -[Python量化入门：K线图+均线+成交量 !!!](https://zhuanlan.zhihu.com/p/54583899) 
+
+
+- https://github.com/kamidox/stock-analysis
+- https://pythonprogramming.net/getting-stock-prices-python-programming-for-finance/
+- https://github.com/xingbuxing/TA-Lib-in-Chinese
+- 土炮股票分析系統 https://github.com/victorgau/Pycontw2017
+
