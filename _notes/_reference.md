@@ -1,4 +1,5 @@
 ## Reference 
+- Algorithmic Trading Using Python - Full Course [2020.12]
 
 -[Python For Finance: Algorithmic Trading]()
 -[Python for Finance (Python金融实战) by 严玉星 2017](https://book.douban.com/subject/27076214/)

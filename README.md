@@ -1,4 +1,6 @@
-# Python Quantitative Trading
+# Python ML & Quantitative Trading & Algorithmic Treading
+
+Using computees to make investment decisions
 
 
 ## Setup

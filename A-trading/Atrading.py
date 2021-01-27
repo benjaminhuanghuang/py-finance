@@ -20,21 +20,17 @@ def getTick():
 
 # 
 def getHistoryData():
-
-  return dt, open, high, low, close, volume
+  pass
 
 
 #  buy or sell
 def strategy(tick, Dt, Open, High, Low, Close):
-  ma20 = Close[:19].sum() / 20
-  
   pass
 
 dt, open, high, low, close, volumn = getHistoryData()
 
-while time(9) < < time(15, 1):
+while True:
   tick = getTick()
   dt = parser.parse(tick[1]).time
   print(tick)
   sleep(3)
-
