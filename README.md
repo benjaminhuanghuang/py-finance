@@ -11,6 +11,8 @@ $ . venv3/bin/activate
 
 (venv3)$ pip3 install -r requirements.txt
 
+
+(venv3)$ python3 m notebook
 ...
 (venv3)$ deactivate
 ```

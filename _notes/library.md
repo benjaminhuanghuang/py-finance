@@ -1,3 +1,22 @@
+## Library
+
+- pandas: table
+```
+```
+
+- matlplotlib 
+
+data visualization
+```
+
+```
+- openpyxl / xlsxwriter
+  
+  Process excel file
+
+
+
+
 
 pip install yfinance #Yahoo Finance python API
 pip install fredapi #FRED python API
