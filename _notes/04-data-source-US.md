@@ -1,7 +1,26 @@
+## pandas-datareader
+https://pandas-datareader.readthedocs.io/en/latest/remote_data.html
+
+Extract data from various Internet sources into a pandas DataFrame
+Some fo sources need API_KEY
+
+pandas-datareader allows you to cache queries using requests_cache by passing a requests_cache.Session to DataReader or Options using the session parameter.
+
+```
+  import requests_cache
+
+  expire_after = datetime.timedelta(days=3)
+
+  session = requests_cache.CachedSession(cache_name='cache', backend='sqlite', expire_after=expire_after)
+
+  f = web.DataReader("F", 'yahoo', start, end, session=session)
+```
+
 ##
 https://www.quandl.com/tools/python
 
-s
+
+
 
 ##  yahoo finance
 数据很有限
