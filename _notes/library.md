@@ -1,15 +1,4 @@
 ## Library
-
-- pandas: table
-```
-```
-
-- matlplotlib 
-
-data visualization
-```
-
-```
 - openpyxl / xlsxwriter
   
   Process excel file
@@ -19,7 +8,9 @@ data visualization
 
 
 pip install yfinance #Yahoo Finance python API
+
 pip install fredapi #FRED python API
+
 pip install pytrends #Google Trends python API
 
 
@@ -36,15 +27,3 @@ Stocker is a python tool that uses ANN to predict the stock's close price for th
 pip install stocker
 ```
 
-## tushare
-
-## matplotlib 
-utilities for the visualization, and visual analysis, of financial data
-- https://github.com/matplotlib/mplfinance
-```
-pip install mplfinance
-```
-
-
-## openpyxl
-Process excel file

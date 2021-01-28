@@ -1,3 +1,6 @@
+'''
+  策略：每月第一个交易日买入100股，每年最后一个交易日全卖出
+'''
 import tushare as ts
 import pandas as pd
 import matplotlib.pyplot as plt
