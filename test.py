@@ -6,6 +6,8 @@ import datetime
 import time
 import yfinance as yf
 
-SYMBOL = 'AAPL'
-data = yf.download(SYMBOL, '2020-1-1', '2021-1-1')
-print(data)
+
+tickers_list = ['AAPL', 'WMT', 'IBM', 'MU', 'BA', 'AXP']
+data = yf.download(tickers_list,'2015-1-1')['Open']
+
+print(data.head())
