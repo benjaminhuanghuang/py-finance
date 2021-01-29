@@ -5,10 +5,9 @@ Get sp500 from wiki S&P 500 Component Stocks
 The S&P 500 is a stock market index that measures the stock performance of 500 large companies
 
 '''
+from datetime import date, datetime, timedelta
 import pandas as pd
-from datetime import date
 import pandas_datareader.data as web
-from datetime import datetime, timedelta
 
 HEADERS = ['Symbol', 'Open', 'High', 'Low', 'Close', 'Volume']
 TECH_SYMBOLS = [
